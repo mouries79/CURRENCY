@@ -210,8 +210,7 @@
 
 #section .amount input::-webkit-outer-spin-button,
 #section .amount input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  appearance: none;
+
   margin: 0;
 }
 
