@@ -107,7 +107,7 @@ function exchangeCurrency() {
       amountElementLeft.value.indexOf(".") == -1) &&
     amountElementLeft.value.match(/[a-z&\/\\_^#@+()$~%'"`!|:*?<>{}-]/g)
   ) {
-    currencyService.alert("Вы можете вводить только числовые значения...");
+    currencyService.alert("Siz yalnız ədədi dəyərlər daxil edə bilərsiniz...");
 
     amountElementLeft.value = "";
     amountElementRight.value = "";
